@@ -1,0 +1,28 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+.loader p {
+  font-family: system-ui;
+  font-weight: 700;
+  /* color: rgba(0, 0, 0, 0.9); */
+  font-size: 62px;
+  /* height: 71px; */
+  position: relative;
+  color: #007bb6;
+  margin: 4px;
+  /* width: 140px; */
+  top: -19px;
+}
+.linkedin-logo-loader {
+  width: 65px;
+    height: 64px;
+}
+.loader-logo{
+  display: flex;
+
+}

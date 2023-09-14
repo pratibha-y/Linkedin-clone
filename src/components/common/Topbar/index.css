@@ -1,0 +1,115 @@
+.topbar-main {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  align-items: center;
+  position: fixed;
+    z-index: 2;
+    top: 0px;
+    min-width: 260px;
+}
+/* .mobile-nav{
+  display: none;
+} */
+.linkedin-logo {
+  width: 65px;
+  margin-left: 20px;
+}
+.react-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 47%;
+  margin-left: 30px;
+}
+.react-icon {
+  color: #787878;
+  cursor: pointer;
+}
+.react-icon:hover {
+  color: black;
+}
+.user-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+.popup-position {
+  position: absolute;
+  right: 10px;
+  top: 65px;
+  z-index: 99;
+}
+.search-results {
+  position: absolute;
+  left: 100px;
+  top: 60px;
+  /* width: 240px; */
+  margin-right: 10px;
+  padding: 5px;
+  box-shadow: -1px 3px 14px 2px #7a7a7ad1;
+  height: 232px;
+  overflow: scroll;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+}
+
+.search-results::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: #d4d1d1;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  background: #2797cf;
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-results::-webkit-scrollbar-corner {
+  background: #2e2d2d;
+}
+
+.search-results .search-inner {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.search-results .search-inner img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.search-results .search-inner .name {
+  font-family: system-ui;
+  font-size: 18px;
+}
+.search-results .search-inner:hover {
+  background-color: #bbb;
+}
+
+@media (max-width: 395px) {
+  .react-icons svg:nth-child(4) {  
+    display: none;
+  }
+  .react-icons svg:nth-child(5) {  
+    display: none;
+  }
+  .react-icons{
+    margin-left: 5px;
+  }
+  .linkedin-logo{
+    margin-left: 0px;
+  }
+
+}

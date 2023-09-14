@@ -1,0 +1,130 @@
+.post-status {
+  width: 550px;
+  height: 120px;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post-status .post-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #cacaca;
+  padding: 5px;
+  cursor: pointer;
+}
+.like-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 7px 10px;
+  cursor: pointer;
+  margin-bottom: -20px;
+}
+.like-container .like-comment {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 5px;
+}
+.like-container .comment-input {
+  height: 40px;
+  background-color: whitesmoke;
+  padding-left: 10px;
+  border-radius: 30px;
+  border: 1px solid #737373;
+  font-family: system-ui;
+  color: #4b4b4b;
+  font-size: 16px;
+}
+.like-container .comment-input:focus {
+  outline: 1px solid #4b4b4b;
+  color: #4b4b4b;
+}
+.like-container .add-comment-btn {
+  width: 150px;
+  height: 35px;
+  background-color: #0a66c2;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.like-container .all-comments {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px;
+}
+.like-container .all-comments .name {
+  color: #212121;
+  text-decoration: none;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+.like-container .all-comments .comment {
+  margin-left: 65px;
+    margin-top: 0px;
+}
+.like-container .all-comments .timestamp {
+  position: absolute;
+  right: 3px;
+    top: 0px;
+}
+.like-container .hr-line {
+  margin-top: -17px;
+}
+.like-container .hr-line hr {
+  border-top: 1px solid #b5b5b5;
+}
+.like-container p {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  color: rgba(58, 58, 58, 0.835);
+  font-size: 14px;
+  margin-left: 5px;
+}
+.like-container .likes-comment-inner {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+.like-container .likes-comment-inner .blue {
+  color: #0a66c2;
+}
+.like-container .likes-comment-inner .black {
+  color: rgba(58, 58, 58, 0.835);
+}
+.like-container .likes-comment-inner p {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  color: rgba(58, 58, 58, 0.835);
+  font-size: 16px;
+}
+
+.comment-profile {
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 6px;
+    cursor: pointer;
+}
